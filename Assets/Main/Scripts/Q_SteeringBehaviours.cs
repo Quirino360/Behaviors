@@ -13,7 +13,7 @@ public enum STEERING_BEHAVIOUR
 }
 
 
-public class Q_SteeringBehaviours : MonoBehaviour
+public class Q_SteeringBehaviours
 {
     Vector3 direction = Vector2.zero; 
     float speed = 0.0f;
@@ -35,8 +35,8 @@ public class Q_SteeringBehaviours : MonoBehaviour
 
     public Vector3 Seek(Vector3 target, Vector3 pos, float Inpetu)
     {
-        dynamic dir = target - pos;
-        return dir;
+        Vector3 dir = target - pos;
+        return dir.normalized;
     }
 
     public Vector3 Flee(Vector3 target, Vector3 pos, float Inpetu)
