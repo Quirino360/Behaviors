@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
+namespace Qurino { 
 public class Q_Character : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -18,3 +18,4 @@ public class Q_Character : MonoBehaviour
         
     }
 }
+} // namespace
