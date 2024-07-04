@@ -13,10 +13,10 @@ public class Q_Ring : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bigCircle.SetWidth(0.03f, 1.0f);
-        smallCircle.SetWidth(0.03f, 1.0f);
-        direction.SetWidth(0.03f, 1.0f);
-        speed.SetWidth(0.03f, 1.0f);
+        bigCircle.SetWidth(0.1f, 1.0f);
+        smallCircle.SetWidth(0.1f, 1.0f);
+        direction.SetWidth(0.1f, 1.0f);
+        speed.SetWidth(0.1f, 1.0f);
     }
 
     float  radio = 1;

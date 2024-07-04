@@ -22,7 +22,7 @@ namespace Qurino
         Q_SteeringBehaviours m_steeringBehaviour = new Q_SteeringBehaviours();
 
         [Header ("Movement")]
-        [SerializeField] private float m_speed = 1.5f;
+        
         [SerializeField] private float m_aceleration = 1.2f;
         [SerializeField] private float m_gravity = 2.0f;
         [SerializeField, Range(0.0f, 1.0f)] private float m_mass = 0.5f; // 0 - 1 0 = nada de masa, 1 es masa absoluta
