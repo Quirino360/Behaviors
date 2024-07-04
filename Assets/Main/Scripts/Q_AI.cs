@@ -12,20 +12,13 @@ using static UnityEngine.InputSystem.OnScreen.OnScreenStick;
 
 namespace Qurino
 {
-    [Serializable]
-    public struct Q_Behaviour
-    {
-        public STEERING_BEHAVIOUR m_currentBehaviour;
-        public GameObject m_target; //pos and dir, only if it has dir
-        public float m_inpetu;
-        public float m_radio;
-        public float targetProyection;
-    }
+    
+
 
     public class Q_AI : Q_Character
     {
         [Header("SteeringBehaviour")]
-        [SerializeField] private Q_Behaviour[] m_beahviours;
+        
         Q_SteeringBehaviours m_steeringBehaviour = new Q_SteeringBehaviours();
 
         [Header ("Movement")]
@@ -34,7 +27,7 @@ namespace Qurino
         [SerializeField] private float m_gravity = 2.0f;
         [SerializeField, Range(0.0f, 1.0f)] private float m_mass = 0.5f; // 0 - 1 0 = nada de masa, 1 es masa absoluta
 
-        private Vector3 m_force = Vector3.zero;
+        
         private Vector3 m_currentForce = Vector3.zero;
         private Vector3 m_oldForce = Vector3.zero;
 
@@ -47,14 +40,16 @@ namespace Qurino
         private bool inPersuitRadio = false;
 
 
-    void Start()
+     protected virtual void Start()
     {
-        
+        base.Start();
     }
 
     
-    void Update()
+     protected virtual void Update()
     {
+        base.Update();
+
         m_force = Vector3.zero;
         // force es la suma de las fuerzas;
         foreach (Q_Behaviour behaviours in m_beahviours)
@@ -67,7 +62,7 @@ namespace Qurino
             }
 
             m_force = m_steeringBehaviour.GetDirection(behaviours.m_target.transform.position, transform.position,
-                targetDir, behaviours.targetProyection, behaviours.m_inpetu, behaviours.m_radio, behaviours.m_currentBehaviour);
+                targetDir, behaviours.targetProyection, m_smallRadio, m_bigRadio, behaviours.m_currentBehaviour);
             
 
             /*if(behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.PERSUIT)
@@ -81,10 +76,10 @@ namespace Qurino
             if (behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.ARRIVE) // tomar en cuenta el arrive mas cercano
             {
                 ArriveDistance = (behaviours.m_target.transform.position - this.transform.position).magnitude;
-                if(ArriveDistance > behaviours.m_radio) // Si esta andro del radio de arrive
+                if(ArriveDistance > m_bigRadio) // Si esta andro del radio de arrive
                 {
                     HasArrived = true;
-                    ArriveRadio = behaviours.m_radio;
+                    ArriveRadio = m_bigRadio;
                 }
                 
             }
