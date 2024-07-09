@@ -19,19 +19,12 @@ namespace Qurino
 
         Q_SteeringBehaviours m_steeringBehaviour = new Q_SteeringBehaviours();
 
-<<<<<<< Updated upstream
-        [Header ("Movement")]
-        
-=======
-        [Header("Movement")]
-        [SerializeField] private float m_speed = 1.5f;
->>>>>>> Stashed changes
-        [SerializeField] private float m_aceleration = 1.2f;
-        [SerializeField] private float m_gravity = 2.0f;
+        //[SerializeField] private float m_aceleration = 1.2f; // Nice To Have
+        //[SerializeField] private float m_gravity = 2.0f; // Nice To Have
         [SerializeField, Range(0.0f, 1.0f)] private float m_mass = 0.5f; // 0 - 1 0 = nada de masa, 1 es masa absoluta
 
         [Header("Path")]
-        [SerializeField] private Position[] m_positions;
+        [SerializeField] private Q_Path m_path;
 
         private Vector3 m_currentForce = Vector3.zero;
         private Vector3 m_oldForce = Vector3.zero;
@@ -41,16 +34,20 @@ namespace Qurino
         private float ArriveDistance = 0.0f;
         private float ArriveRadio = 0.0f;
 
-        protected virtual void Start()
+        protected override void Start()
         {
             base.Start();
+            m_speed = 2.5f;
+            m_steeringBehaviour.m_path = m_path;
+
+
         }
 
 
-        protected virtual void Update()
+        protected override void Update()
         {
             base.Update();
-
+            
             m_force = Vector3.zero;
             // force es la suma de las fuerzas;
             foreach (Q_Behaviour behaviours in m_beahviours)

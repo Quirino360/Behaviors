@@ -31,14 +31,14 @@ namespace Qurino
             input.Player.Movement.canceled -= OnMovementCanceled;
         }
 
-        protected virtual void Start()
+        protected override void Start()
         {
             base.Start();
-            m_speed = 10.0f;
+
         }
 
         // Update is called once per frame
-        protected virtual void Update()
+        protected override void Update()
         {
             base.Update();
             m_force = m_direction * m_speed * Time.deltaTime;

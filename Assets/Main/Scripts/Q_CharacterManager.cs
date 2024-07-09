@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Quirino
 {
-    public class Q_CharacterManager : MonoBehaviour
+    public class Q_CharacterManager
     {
         // Start is called before the first frame update
         void Start()

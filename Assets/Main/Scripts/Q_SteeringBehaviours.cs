@@ -9,7 +9,6 @@ using UnityEngine.Windows;
 
 namespace Quirino
 {
-
     public enum STEERING_BEHAVIOUR
     {
         NONE = 0,
@@ -34,12 +33,21 @@ namespace Quirino
 
     public class Q_SteeringBehaviours
     {
+
         private float leaderRadio;
         public float m_leaderRadio
         {
             get { return leaderRadio; }
             set { leaderRadio = value; }
         }
+
+        private Q_Path path;
+        public Q_Path m_path
+        {
+            get { return path; }
+            set { path = value; }
+        }
+
 
         Q_CharacterManager charManager;
 
@@ -48,7 +56,9 @@ namespace Quirino
             charManager = new Q_CharacterManager();
         }
 
-        public Vector3 GetDirection(Vector3 target, Vector3 pos, Vector3 targetDir, float targetProyection, float inpetu, float smallRadio, float bigRadio, STEERING_BEHAVIOUR beahaviour)
+        
+
+        public Vector3 GetDirection(Vector3 target, Vector3 pos, Vector3 targetDir, float targetProyection, float inpetu, float smallRadio, float bigRadio,   STEERING_BEHAVIOUR beahaviour)
         {
             if (STEERING_BEHAVIOUR.SEEK == beahaviour)
             {
@@ -104,11 +114,11 @@ namespace Quirino
             }
             else if (STEERING_BEHAVIOUR.FOLLOW_PATH == beahaviour)
             {
-                return FollowPath(inpetu, smallRadio);
+                return FollowPath(pos, inpetu, smallRadio);
             }
             else if (STEERING_BEHAVIOUR.FOLLOW_CIRCUIT == beahaviour)
             {
-                return FollowCircuit(inpetu, smallRadio);
+                return FollowCircuit(pos, inpetu, smallRadio);
             }
             return Vector3.zero;
         }
@@ -315,15 +325,34 @@ namespace Quirino
             return (separation + cohesion + direction).normalized * inpetu;
         }
 
-        float currentCheckPoint = 0;
-        public Vector3 FollowPath(float inpetu, float smallRadio)
+        int currentChekpoint = 0;
+        public Vector3 FollowPath(Vector3 pos, float inpetu, float smallRadio)
         {
+            if ((pos - m_path.m_checkpoints[currentChekpoint]).magnitude < smallRadio) // inside target area
+            {
+                currentChekpoint++;
+                if (currentChekpoint >= m_path.m_checkpoints.Count)
+                {
+                    currentChekpoint = 0;
+                    m_path.m_checkpoints.Reverse();
+                }
 
-            return Vector3.zero;
+            }
+
+            return Seek(m_path.m_checkpoints[currentChekpoint], pos, inpetu);
         }
-        public Vector3 FollowCircuit(float inpetu, float smallRadio)
+        public Vector3 FollowCircuit(Vector3 pos, float inpetu, float smallRadio)
         {
-            return Vector3.zero;
+            if ((pos - m_path.m_checkpoints[currentChekpoint]).magnitude < smallRadio) // inside target area
+            {
+                currentChekpoint++;
+                if (currentChekpoint >= m_path.m_checkpoints.Count)
+                {
+                    currentChekpoint = 0;
+                }
+            }
+
+            return Seek(m_path.m_checkpoints[currentChekpoint], pos, inpetu);
         }
 
 

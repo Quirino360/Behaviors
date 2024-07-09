@@ -49,13 +49,14 @@ MonoBehaviour:
   m_beahviours:
   - m_currentBehaviour: 5
     m_target: {fileID: 0}
+    m_inpetu: 1
     targetProyection: 1
   m_bigRadio: 10
   m_smallRadio: 5
-  m_speed: 1.5
   m_aceleration: 1.2
   m_gravity: 2
   m_mass: 0
+  m_positions: 
 --- !u!1 &1127759347875634645
 GameObject:
   m_ObjectHideFlags: 0
