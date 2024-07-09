@@ -7,27 +7,32 @@ using System.Xml;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 using static UnityEngine.InputSystem.OnScreen.OnScreenStick;
 
 namespace Qurino
 {
-    
-
-
     public class Q_AI : Q_Character
     {
         [Header("SteeringBehaviour")]
-        
+
         Q_SteeringBehaviours m_steeringBehaviour = new Q_SteeringBehaviours();
 
+<<<<<<< Updated upstream
         [Header ("Movement")]
         
+=======
+        [Header("Movement")]
+        [SerializeField] private float m_speed = 1.5f;
+>>>>>>> Stashed changes
         [SerializeField] private float m_aceleration = 1.2f;
         [SerializeField] private float m_gravity = 2.0f;
         [SerializeField, Range(0.0f, 1.0f)] private float m_mass = 0.5f; // 0 - 1 0 = nada de masa, 1 es masa absoluta
 
-        
+        [Header("Path")]
+        [SerializeField] private Position[] m_positions;
+
         private Vector3 m_currentForce = Vector3.zero;
         private Vector3 m_oldForce = Vector3.zero;
 
@@ -36,72 +41,68 @@ namespace Qurino
         private float ArriveDistance = 0.0f;
         private float ArriveRadio = 0.0f;
 
-        // Persuit
-        private bool inPersuitRadio = false;
-
-
-     protected virtual void Start()
-    {
-        base.Start();
-    }
-
-    
-     protected virtual void Update()
-    {
-        base.Update();
-
-        m_force = Vector3.zero;
-        // force es la suma de las fuerzas;
-        foreach (Q_Behaviour behaviours in m_beahviours)
+        protected virtual void Start()
         {
-            var chacarter = behaviours.m_target.GetComponent<Q_Character>();
-            Vector3 targetDir = Vector3.zero;
-            if (chacarter)
+            base.Start();
+        }
+
+
+        protected virtual void Update()
+        {
+            base.Update();
+
+            m_force = Vector3.zero;
+            // force es la suma de las fuerzas;
+            foreach (Q_Behaviour behaviours in m_beahviours)
             {
+                var chacarter = behaviours.m_target.GetComponent<Q_Character>();
+                Vector3 targetDir = Vector3.zero;
+                if (chacarter)
+                {
                     targetDir = behaviours.m_target.GetComponent<Q_Character>().m_direction;
+                }
+
+                m_force = m_steeringBehaviour.GetDirection(behaviours.m_target.transform.position, transform.position,
+                    targetDir, behaviours.targetProyection, behaviours.m_inpetu, m_smallRadio, m_bigRadio, behaviours.m_currentBehaviour);
+
+
+                /*if(behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.PERSUIT)
+                {
+                    float distance = (behaviours.m_target.transform.position - this.transform.position).magnitude;
+                    if (distance > behaviours.m_radio)// Si esta andro del radio de persuit
+                    {
+
+                    }
+                }*/
+                if (behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.ARRIVE) // tomar en cuenta el arrive mas cercano
+                {
+                    ArriveDistance = (behaviours.m_target.transform.position - this.transform.position).magnitude;
+                    if (ArriveDistance > m_bigRadio) // Si esta andro del radio de arrive
+                    {
+                        HasArrived = true;
+                        ArriveRadio = m_bigRadio;
+                    }
+
+                }
             }
 
-            m_force = m_steeringBehaviour.GetDirection(behaviours.m_target.transform.position, transform.position,
-                targetDir, behaviours.targetProyection, m_smallRadio, m_bigRadio, behaviours.m_currentBehaviour);
-            
+            m_currentForce = ((m_force * (1 - m_mass)) + (m_oldForce * m_mass));
+            m_oldForce = m_currentForce;
 
-            /*if(behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.PERSUIT)
+            m_direction = m_currentForce.normalized;
+            if (HasArrived == false)
             {
-                float distance = (behaviours.m_target.transform.position - this.transform.position).magnitude;
-                if (distance > behaviours.m_radio)// Si esta andro del radio de persuit
-                {
-                    
-                }
-            }*/
-            if (behaviours.m_currentBehaviour == STEERING_BEHAVIOUR.ARRIVE) // tomar en cuenta el arrive mas cercano
-            {
-                ArriveDistance = (behaviours.m_target.transform.position - this.transform.position).magnitude;
-                if(ArriveDistance > m_bigRadio) // Si esta andro del radio de arrive
-                {
-                    HasArrived = true;
-                    ArriveRadio = m_bigRadio;
-                }
-                
+                transform.position += m_direction * m_speed * Time.deltaTime;
             }
+            else
+            {
+                float ArriveSpeed = (ArriveDistance / ArriveRadio) * m_speed;
+                transform.position += m_direction * ArriveSpeed * Time.deltaTime;
+            }
+
         }
 
-        m_currentForce = ((m_force * (1 - m_mass)) + (m_oldForce * m_mass));
-        m_oldForce = m_currentForce;
-
-        m_direction = m_currentForce.normalized;
-        if (HasArrived == false)
-        {
-            transform.position += m_direction * m_speed * Time.deltaTime;
-        }
-        else
-        {
-            float ArriveSpeed = (ArriveDistance / ArriveRadio) * m_speed;
-            transform.position += m_direction * ArriveSpeed * Time.deltaTime;
-        }
-        
+        // realForce = (force * (1-mass) + (oldForce * mass))transorm
+        // old force = realForce 
     }
-
-    // realForce = (force * (1-mass) + (oldForce * mass))transorm
-    // old force = realForce 
-}
 } // namespace
