@@ -1,3 +1,4 @@
+using Quirino;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,29 @@ namespace Qurino
     public class Q_Player : Q_Character
     {
         private PlayerController input = null;
+        public PlayerController m_input
+        {  get { return input; } }
+
         private Vector2 movement = Vector2.zero;
+
+        private Q_PlayerState state = new Q_PlayerStateIdle();
+        public Q_PlayerState m_state
+        {
+            get { return state; }
+            set
+            {
+                if (value != state)
+                {
+                    // if (_currentState != null)
+                    // {
+                    // 	_currentState.OnExit();
+                    // }
+                    state?.OnExit();
+                    state = value;
+                    state.OnEnter();
+                }
+            }
+        }/**/
 
         private void Awake()
         {

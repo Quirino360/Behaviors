@@ -98,7 +98,7 @@ namespace Quirino
             }
             else if (STEERING_BEHAVIOUR.SEPARATION == beahaviour)
             {
-                return Separation(pos, inpetu, bigRadio);
+                return Separation(pos, inpetu, smallRadio);
             }
             else if (STEERING_BEHAVIOUR.COHESION == beahaviour)
             {
@@ -192,7 +192,7 @@ namespace Quirino
                 return Seek(RandomPos, pos, inpetu);
             }
 
-            Debug.Log("Timer = " + waitTimer);
+            //Debug.Log("Timer = " + waitTimer);
             return Vector3.zero;
         }
 
@@ -248,7 +248,7 @@ namespace Quirino
             return dir.normalized * inpetu;
         }
 
-        public Vector3 Separation(Vector3 pos, float inpetu, float bigRadio)
+        public Vector3 Separation(Vector3 pos, float inpetu, float smallRadio)
         {
             Q_AI[] allVoids = charManager.getAllAI();
             Vector3 fleeDir = Vector3.zero;
@@ -261,7 +261,7 @@ namespace Quirino
             foreach (Q_AI ai in allVoids)
             {
                 float distance = (ai.transform.position - pos).magnitude;
-                if (distance < bigRadio) // if its inside
+                if (distance < smallRadio) // if its inside
                 {
                     fleeDir += Flee(ai.transform.position, pos, inpetu);
                 }
@@ -319,7 +319,7 @@ namespace Quirino
         public Vector3 Flocking(Vector3 pos, float inpetu, float bigRadio)
         {
             Vector3 separation = Separation(pos, inpetu, bigRadio);
-            Vector3 cohesion = Cohesion(pos, inpetu, bigRadio);
+            Vector3 cohesion = Cohesion(pos, inpetu * 1.2f, bigRadio);
             Vector3 direction = Direction(pos, inpetu, bigRadio);
 
             return (separation + cohesion + direction).normalized * inpetu;

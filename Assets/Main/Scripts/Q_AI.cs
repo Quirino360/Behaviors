@@ -40,7 +40,6 @@ namespace Qurino
             m_speed = 2.5f;
             m_steeringBehaviour.m_path = m_path;
 
-
         }
 
 

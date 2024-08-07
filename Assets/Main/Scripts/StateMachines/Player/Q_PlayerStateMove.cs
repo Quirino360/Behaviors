@@ -1,41 +1,44 @@
+using Qurino;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 namespace Quirino
 {
     public class Q_PlayerStateMove : Q_PlayerState
 {
-        public Q_PlayerStateMove(PlayerController player, Q_PlayerSM fsm) : base(player, fsm)
+        public Q_PlayerStateMove() : base()
         {
 
         }
 
         public override void OnEnter()
         {
+            Debug.Log(" entered move state");
 
         }
 
-        public override Q_PlayerState OnUpdate()
+        public override Q_PlayerState OnUpdate(Q_Player character)
         {
-            if (m_player.Player.Movement.IsInProgress())
+            if (character.m_input.Player.Movement.IsInProgress())
             {
-                return m_fsm.MovingState;
+                return Q_PlayerSM.MovingState;
             }
 
-            return m_fsm.IdleState;
+            return Q_PlayerSM.IdleState;
         }
 
-        public override Q_PlayerState OnFixedUpdate()
+        public override Q_PlayerState OnFixedUpdate(Q_Player character)
         {
-            return m_fsm.MovingState;
+            return Q_PlayerSM.MovingState;
         }
 
         public override void OnExit()
         {
 
         }
-        public override void OnRender()
+        public override void OnRender(Q_Player character)
         {
 
         }

@@ -1,3 +1,4 @@
+using Qurino;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,19 +8,17 @@ namespace Quirino
 {
     public abstract class Q_PlayerState
     {
-        protected readonly PlayerController m_player;
         protected readonly Q_PlayerSM m_fsm;
-        public Q_PlayerState(PlayerController player, Q_PlayerSM fsm)
+        public Q_PlayerState()
         {
-            m_player = player;
-            m_fsm = fsm;
+
         }
 
-        abstract public void OnEnter();
-        abstract public Q_PlayerState OnUpdate();
-        abstract public Q_PlayerState OnFixedUpdate();
+        abstract public void OnEnter(); 
+        abstract public Q_PlayerState OnUpdate(Q_Player character);
+        abstract public Q_PlayerState OnFixedUpdate(Q_Player character);
         abstract public void OnExit();
-        abstract public void OnRender();
+        abstract public void OnRender(Q_Player character);
     }
 }
 

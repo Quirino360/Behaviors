@@ -1,44 +1,48 @@
+using Qurino;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.TextCore.Text;
 using UnityEngine.Windows;
 
 namespace Quirino
 {
     public class Q_PlayerStateIdle : Q_PlayerState
     {
-        public Q_PlayerStateIdle(PlayerController player, Q_PlayerSM fsm) : base(player, fsm)
+        public Q_PlayerStateIdle() : base()
         {
 
         }
 
         public override void OnEnter()
         {
-
+            
         }
 
-        public override Q_PlayerState OnUpdate()
+        public override Q_PlayerState OnUpdate(Q_Player character)
         {
-
-            if (m_player.Player.Movement.IsPressed())
+            Debug.Log(character + " is on iddle state");
+            if (character.m_input.Player.Movement.IsPressed())
             {
-                return m_fsm.MovingState;
+                Debug.Log(character + " is changing to move state");
+                return Q_PlayerSM.MovingState;
             }
-            return m_fsm.IdleState;
+            
+            return Q_PlayerSM.IdleState;
         }
 
-        public override Q_PlayerState OnFixedUpdate()
+        public override Q_PlayerState OnFixedUpdate(Q_Player character)
         {
-            return m_fsm.IdleState;
+            return Q_PlayerSM.IdleState;
         }
 
         public override void OnExit()
         {
 
         }
-        public override void OnRender()
+        public override void OnRender(Q_Player character)
         {
 
         }

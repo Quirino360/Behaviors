@@ -56,7 +56,7 @@ namespace Qurino
         protected virtual void Update()
         {
             ring.DrawCircle(ring.smallCircle, 100, m_smallRadio);
-            ring.DrawCircle(ring.bigCircle, 100, 5);
+            ring.DrawCircle(ring.bigCircle, 100, m_bigRadio);
 
             ring.DrawLine(ring.direction, transform.position, transform.position + m_direction);
             ring.DrawLine(ring.speed, transform.position, transform.position + m_force);
