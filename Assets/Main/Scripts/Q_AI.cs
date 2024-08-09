@@ -34,6 +34,26 @@ namespace Qurino
         private float ArriveDistance = 0.0f;
         private float ArriveRadio = 0.0f;
 
+        // State Machine
+        private Q_AIState state = Q_AISM.IdleState;
+        public Q_AIState m_state
+        {
+            get { return state; }
+            set
+            {
+                if (value != state)
+                {
+                    // if (_currentState != null)
+                    // {
+                    // 	_currentState.OnExit();
+                    // }
+                    state?.OnExit();
+                    state = value;
+                    state.OnEnter();
+                }
+            }
+        }/**/
+
         protected override void Start()
         {
             base.Start();
@@ -97,6 +117,7 @@ namespace Qurino
             }
 
         }
+
 
         // realForce = (force * (1-mass) + (oldForce * mass))transorm
         // old force = realForce 

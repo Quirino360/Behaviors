@@ -2,23 +2,23 @@ using Qurino;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 namespace Quirino
 {
     public abstract class Q_AIState
     {
-        protected readonly Q_AI m_AI;
         protected readonly Q_AISM m_fsm;
-        public Q_AIState(Q_AI ai, Q_AISM fsm)
+
+
+        public Q_AIState()
         {
-            m_AI = ai;
-            m_fsm = fsm;
         }
 
         abstract public void OnEnter();
-        abstract public Q_AIState OnUpdate();
-        abstract public Q_AIState OnFixedUpdate();
+        abstract public Q_AIState OnUpdate(Q_AI ai);
+        abstract public Q_AIState OnFixedUpdate(Q_AI ai);
         abstract public void OnExit();
-        abstract public void OnRender();
+        abstract public void OnRender(Q_AI ai);
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 namespace Quirino
 {
@@ -21,8 +22,15 @@ namespace Quirino
 
         public override Q_PlayerState OnUpdate(Q_Player character)
         {
+            if (character.m_input.Player.Boost.IsPressed())
+            {
+                character.Move();
+                return Q_PlayerSM.BoostingState;
+            }   
             if (character.m_input.Player.Movement.IsInProgress())
             {
+                character.Move();
+
                 return Q_PlayerSM.MovingState;
             }
 

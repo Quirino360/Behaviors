@@ -8,7 +8,7 @@ namespace Quirino
 {
     public class Q_AIStatePersuit : Q_AIState
     {
-        public Q_AIStatePersuit(Q_AI player, Q_AISM fsm) : base(player, fsm)
+        public Q_AIStatePersuit() : base()
         {
 
         }
@@ -18,21 +18,21 @@ namespace Quirino
 
         }
 
-        public override Q_AIState OnUpdate()
+        public override Q_AIState OnUpdate(Q_AI ai)
         {
-            return m_fsm.PersuitState;
+            return Q_AISM.PersuitState;
         }
 
-        public override Q_AIState OnFixedUpdate()
+        public override Q_AIState OnFixedUpdate(Q_AI ai)
         {
-            return m_fsm.PersuitState;
+            return Q_AISM.PersuitState;
         }
 
         public override void OnExit()
         {
 
         }
-        public override void OnRender()
+        public override void OnRender(Q_AI ai)
         {
 
         }

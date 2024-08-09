@@ -12,8 +12,8 @@ namespace Quirino
     {
         #region FIELDS
 
-        private readonly PlayerController m_player;
-        private Q_PlayerState m_currentState;
+        //private readonly PlayerController m_player;
+        //private Q_PlayerState m_currentState;
 
         private static Q_PlayerState m_idleState;
         private static Q_PlayerState m_moveState;
@@ -41,13 +41,7 @@ namespace Quirino
             }
         }/**/
 
-        public static Q_PlayerState IdleState
-        {
-            get
-            {
-                return m_idleState ??= new Q_PlayerStateIdle();
-            }
-        }
+        public static Q_PlayerState IdleState { get { return m_idleState ??= new Q_PlayerStateIdle(); } }
         public static Q_PlayerState MovingState { get { return m_moveState ??= new Q_PlayerStateMove(); } }
         public static Q_PlayerState BoostingState { get { return m_boostState ??= new Q_PlayerStateBoost(); } }
 

@@ -7,7 +7,7 @@ namespace Quirino
 {
     public class Q_AIStateIdle : Q_AIState
     {
-        public Q_AIStateIdle(Q_AI player, Q_AISM fsm) : base(player, fsm)
+        public Q_AIStateIdle() : base()
         {
 
         }
@@ -17,22 +17,22 @@ namespace Quirino
 
         }
 
-        public override Q_AIState OnUpdate()
+        public override Q_AIState OnUpdate(Q_AI ai)
         {
 
-            return m_fsm.IdleState;
+            return Q_AISM.IdleState;
         }
 
-        public override Q_AIState OnFixedUpdate()
+        public override Q_AIState OnFixedUpdate(Q_AI ai)
         {
-            return m_fsm.IdleState;
+            return Q_AISM.IdleState;
         }
 
         public override void OnExit()
         {
 
         }
-        public override void OnRender()
+        public override void OnRender(Q_AI ai)
         {
 
         }

@@ -18,18 +18,23 @@ namespace Quirino
 
         public override void OnEnter()
         {
-            
+            Debug.Log(" entered iddle state");
+
         }
 
         public override Q_PlayerState OnUpdate(Q_Player character)
         {
-            Debug.Log(character + " is on iddle state");
-            if (character.m_input.Player.Movement.IsPressed())
+
+            if (character.m_input.Player.Boost.IsPressed())
             {
-                Debug.Log(character + " is changing to move state");
+                return Q_PlayerSM.BoostingState;
+            }
+            else if (character.m_input.Player.Movement.IsPressed())
+            {
+
                 return Q_PlayerSM.MovingState;
             }
-            
+
             return Q_PlayerSM.IdleState;
         }
 

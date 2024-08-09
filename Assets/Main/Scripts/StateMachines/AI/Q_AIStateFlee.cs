@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Q_AIStateFlee : Q_AIState
 {
-    public Q_AIStateFlee(Q_AI player, Q_AISM fsm) : base(player, fsm)
+    public Q_AIStateFlee() : base()
     {
 
     }
@@ -16,21 +16,21 @@ public class Q_AIStateFlee : Q_AIState
 
     }
 
-    public override Q_AIState OnUpdate()
+    public override Q_AIState OnUpdate(Q_AI ai)
     {
-        return m_fsm.FleeingState;
+        return Q_AISM.FleeingState;
     }
 
-    public override Q_AIState OnFixedUpdate()
+    public override Q_AIState OnFixedUpdate(Q_AI ai)
     {
-        return m_fsm.FleeingState;
+        return Q_AISM.FleeingState;
     }
 
     public override void OnExit()
     {
 
     }
-    public override void OnRender()
+    public override void OnRender(Q_AI ai)
     {
 
     }

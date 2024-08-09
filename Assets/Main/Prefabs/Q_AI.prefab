@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 987402c3ec8523d488af5cb8e6a56c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_bullet: {fileID: 3143071880995082348, guid: 16e50386fe81e5440be8b05a6502fbd2, type: 3}
   m_beahviours:
   - m_currentBehaviour: 5
     m_target: {fileID: 0}
@@ -53,10 +54,8 @@ MonoBehaviour:
     targetProyection: 1
   m_bigRadio: 10
   m_smallRadio: 5
-  m_aceleration: 1.2
-  m_gravity: 2
   m_mass: 0
-  m_positions: 
+  m_path: {fileID: 0}
 --- !u!1 &1127759347875634645
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,7 +129,7 @@ SpriteRenderer:
   m_SortingLayerID: -667098919
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 2044228239, guid: 25fe1eac5308aa84f859d6e4b47070e7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
