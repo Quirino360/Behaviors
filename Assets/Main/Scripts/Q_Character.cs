@@ -18,7 +18,10 @@ namespace Qurino
             public float targetProyection;
         }
 
-        [SerializeField] private Q_Bullet m_bullet = new Q_Bullet();
+        [SerializeField] private Q_Bullet m_bullet;
+        protected GameObject m_muzzle;
+        protected GameObject m_shipSprite;
+
 
         private Vector3 direction = Vector3.zero;
         public Vector3 m_direction
@@ -59,7 +62,6 @@ namespace Qurino
         [SerializeField] protected float m_bigRadio;
         [SerializeField] protected float m_smallRadio;
 
-        protected GameObject ShipSprite;
 
         Q_Ring ring;
 
@@ -68,7 +70,8 @@ namespace Qurino
         {
             ring = GetComponentInChildren<Q_Ring>();
 
-            ShipSprite = gameObject.transform.GetChild(0).gameObject;
+            m_shipSprite = gameObject.transform.GetChild(0).gameObject;
+            m_muzzle = m_shipSprite.gameObject.transform.GetChild(0).gameObject;
 
 
         }
@@ -85,7 +88,7 @@ namespace Qurino
 
         protected virtual void Shoot(Vector3 shootDir)
         {
-            var bullet = Instantiate(m_bullet.gameObject, transform);
+            var bullet = Instantiate(m_bullet.gameObject, m_muzzle.transform.position, m_muzzle.transform.rotation);
             var bullSCpt = bullet.gameObject.GetComponent<Q_Bullet>();
             bullSCpt.m_direction = shootDir;
         }

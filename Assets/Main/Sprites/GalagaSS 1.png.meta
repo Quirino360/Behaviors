@@ -1,0 +1,4143 @@
+fileFormatVersion: 2
+guid: a9f5b06dbb4871f4daf2d47160a9d6ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GalagaSS 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd7ec5a5055aa54fa4d9229803199db
+      internalID: -726796259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f498db23a203034a8a379a0b19cd9d5
+      internalID: -1744423801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 199
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902c26f54157ff24c8901f71b1142651
+      internalID: 1273288822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 199
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43194677c6abf2c43bda4d82042037bf
+      internalID: -677294561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 199
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256eeb8f78cbcdb49b57f9fbb77706c2
+      internalID: 1850349387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 199
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ada667bb8ce840992bcf3253967fc
+      internalID: -1618501313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 199
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bd240f8de617c41a527f4b1ac5e00a
+      internalID: 1599746729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 186
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6e17e8304c8a74e9b138cec3e01e24
+      internalID: 1621062308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 183
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1833bbf1ffcf13848bd86e8b8e1ea478
+      internalID: -1377407070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 183
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dfb85ede87c754786c8421ae0e874b
+      internalID: -425437896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 183
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2926bb5412eecd846a299e83ba70eab4
+      internalID: -1632115970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5bdee6c3fbfbb49a5d72905577d4ee
+      internalID: 483750065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 193
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08143119dae5da418222c6f0d93047a
+      internalID: 1184053891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 190
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03059dca9c61c0e4984b8b9e69a129ba
+      internalID: -1922660374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 182
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55201e045d9499c4287375d1733efbea
+      internalID: -1477144567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 181
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed5f04f1f44be43bb4b706f10bf277
+      internalID: 2034129624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 181
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a44dda63db6f3c469ea0dc2c224f3be
+      internalID: 152860714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 181
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8e63386b1e8ce4faf1b01a47f962f4
+      internalID: 1529002689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_27
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332f840d59e153748a5028e09305ef6e
+      internalID: -489739597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_28
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2184f5ea32e2c48b80ba1bc1f22f1e
+      internalID: 1510503291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 181
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8d5f72f7c70064b89a7a72e683afa1
+      internalID: 252927882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb0c623c7a6a374393a979052e5af16
+      internalID: -1344575918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 164
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db96f696cde7942438111a211df48254
+      internalID: 2103388363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 164
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a1008e5cff933499c3ced105c31bbc
+      internalID: 396554574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_36
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 164
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eb16e8f5fd93145b0563f8bfb654c4
+      internalID: -1128967139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 163
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79d1e551ea9e2840bb8535bc881b7f9
+      internalID: -1880236375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_38
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 163
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb484a4b44ffe54c8eda30ea8271337
+      internalID: 890330819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 163
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4217f61765c7044fa2f9a7275f1f1ed
+      internalID: 1091450920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 163
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f5c283ab00bc409105191f8cfff10
+      internalID: -2145444880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_41
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 163
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76726a74db26bf942bcb7dfc0e6e34b0
+      internalID: -861005524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_42
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 164
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00214eab4ab8c964197692b58daa052e
+      internalID: -1304533159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 164
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b6479ebb6db84bb30e9d1050b8fce
+      internalID: 1644292326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 164
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1667bf4744143144a05b3907f665ed8
+      internalID: 569456376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 163
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2479ad69f2fa2404a8fa026a904dea87
+      internalID: -1072841418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_46
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 163
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99d9f9746699044f914e482f8cd7b57
+      internalID: -643917266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_47
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 163
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c015fdfb1c2442a436224263a29ac
+      internalID: 1646258675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 163
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bbc6353c975dd4bbaa3c78af521ec2
+      internalID: -1551373596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3084c3bc91f0747ba71a4fff6a2d85
+      internalID: -1592265435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 146
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f86c7bccf96ce4eb4eae224cb0bb3e
+      internalID: -470073771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_62
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 146
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72580bbcb2294554b9b422ae6a4c16bc
+      internalID: 2138038057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 146
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834b172230b96e2479b1f7373d81c5f5
+      internalID: -446417989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48ce1f2061a0134da751593462063ac
+      internalID: -2075283121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_65
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26913df8b1af8e4d8d6388abc3abdab
+      internalID: -802222043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 145
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087b148402911ab4ab771f4bef682f2d
+      internalID: 1243586348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c91719721e12b4e99a4cfd92e5b2ac
+      internalID: -72205004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 146
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec36db2005f27754d9ae7e0a558eb2fc
+      internalID: 1193589506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_75
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 146
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de6a121b656c474b8b9cf83508bb882
+      internalID: 1850670327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_76
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 148
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4be30028d6fc24681f84f023035281
+      internalID: -1775062230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_77
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f928eabba3cdb4a93d58cf20f09391
+      internalID: 930514825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_78
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 147
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c767d82417cc90844b7d388e56c9954f
+      internalID: 2031428780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_79
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 147
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a56c71b4377b9439898e11b016c355
+      internalID: 493872384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_80
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 148
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52db25813babfd4db39558aa227f577
+      internalID: -1239634383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_81
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 148
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edec6febf2370a42a3e0e94d2137f25
+      internalID: 1718473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_94
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f617244af1aa2d408f4a64438437f21
+      internalID: -717532083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_95
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 130
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd33371230582d4baf091cc4ff67403
+      internalID: -2007228607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_96
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e529860c0c0120447a44cc3cac8d4017
+      internalID: 1119006111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_97
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e5e5ae1fe0f140a9491d34c04c2f7
+      internalID: 1502280971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_98
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 129
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d51c384248dd0a41aa1531d99595f7f
+      internalID: 1949941744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_99
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 129
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a9858f1e5ea644a9972423aa19ecba
+      internalID: 442369815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_100
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 130
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f51c774750cc294b8e36216f4303619
+      internalID: 1405676162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_101
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 130
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4a581533c18714c86946e9c7a76b3e
+      internalID: 174874036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_102
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 128
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2743937dc76a02438ef9f0e69adb85e
+      internalID: 648938170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_103
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 129
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f38acbfb3d6e44899eb6f9e816822
+      internalID: -2021496593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_104
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 128
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3694a701593354e8c4a8dc6f50e98a
+      internalID: 1884459582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78bfe0a5b355a8438d18bfb95bc4944
+      internalID: -619664771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_106
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 129
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c147ce7d77d604db6af9041910e851
+      internalID: 1433222967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_107
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 129
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31466a5d3fb22a7498f07bcfcb8932de
+      internalID: -1029823707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_108
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 130
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d280844509a5b3b4fa7a71ddf33fa419
+      internalID: -1219140963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_109
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 130
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64cf5fc5d3563e41a07be7aac4720ff
+      internalID: 1903603043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_122
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 110
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dce94a63c6ac6044b72ac82d150fe8e
+      internalID: -2060028354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_123
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 111
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294d6f2a8322f474a8277d40fa89f2a4
+      internalID: -1200595569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_124
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5956b7f24fd13f4d89508cafb2bba70
+      internalID: -741440101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_125
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 110
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6feadc48017b1428025aada0f0a583
+      internalID: -859880904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_126
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b985786cf0388974ea44834eb0e4a507
+      internalID: 818595757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_127
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 111
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ca33a7ec8ed140bc8294b76f54cae
+      internalID: 160935797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_128
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 112
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fec3f0331a346d4cb9be5c4fe52b514
+      internalID: -1918065931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_129
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d56f559f8a42540ae8215a706c1f81
+      internalID: -828217029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_130
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c3a4c3f8d1b54f83b326d5782ff16
+      internalID: -1976053805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_131
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 113
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa03d40f68be344428ce002d67f419b5
+      internalID: -497138511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_132
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 111
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1197aa192af04146af4cf878365311d
+      internalID: 1097128701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_133
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 113
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e431d0a168329994ca8a4795b3d44357
+      internalID: 574199127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_134
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 111
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53112ea15a3032c4399c39d21986a9a8
+      internalID: 1714946874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_135
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 111
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5688b0a0af9d36844a7d145e859fc7bc
+      internalID: 607881127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_136
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89ea945718701a46949e0c57ddb42e8
+      internalID: 475352076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_149
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 94
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c164d5eb5783d4ba08daac05f19775
+      internalID: 1563417996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_150
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 95
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aacd48601b9a543992c0d4c5c7a519
+      internalID: 582994698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_151
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 93
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e9a6eed14a964ba8c78be40d95a7b
+      internalID: 931723122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_152
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 95
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96164021b783846498688d06d4c92300
+      internalID: -703904482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_153
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 93
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fe3cf9e839ed4458595e686be29af2
+      internalID: -676475191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_154
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 93
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57d1922b11f9a458e66a6a0b72a450
+      internalID: 483506048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_155
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 93
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b176f25cb2a5a348816f48e7cea4193
+      internalID: 1278159942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_156
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 94
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e47117de4bee745a033d9737bd471c
+      internalID: -1071159764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_157
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 93
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3535d82109eff0042af8fa7fc0812885
+      internalID: 713928329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_158
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 92
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114e0b047129b214b97399c67e23c133
+      internalID: -1449947678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_159
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 93
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3276cca71feb8064581d163b395c6321
+      internalID: -876922772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_160
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 92
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c292d060fe3d45a52a0e5ab35b407
+      internalID: 61642337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_161
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 93
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d2234db898444bbccc8df89c11f94
+      internalID: -1364654912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_162
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 93
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53692416dda6a44587b3cbe7374c6d3
+      internalID: -1742814525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_165
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 100
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d2500a7248221458044f5bb440423a
+      internalID: -927268214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_167
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 100
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad636c0029f05040958e515ec74055b
+      internalID: 2000358863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_170
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 86
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b96121baab76d64eb38c3e3a5c1b641
+      internalID: 1605904296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_185
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 76
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df4e29fdb8b39644b1a2ece47f18a8e
+      internalID: -486557622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_186
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 75
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d7606406aaa9946bec2602e2592f64
+      internalID: -1010514308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_187
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b251965a0afe3b488d73cbb1f364302
+      internalID: 502489174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_188
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 75
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f946ca9f6f4974e8dfa8114f8d52b8
+      internalID: -1785334661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_189
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b577fe981184eb44ead99fb570681af5
+      internalID: -1161692353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_190
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 75
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3c574d3ca48674a8a22574cedbbb41
+      internalID: -1601814827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_191
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 75
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a45dbb7751941d47bade427a501bdcd
+      internalID: 736969825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_192
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 76
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e206e9494d85b549a99b43a33eef24d
+      internalID: 1963864682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_193
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 75
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3183ae19d379f4b4795b817ca30218a8
+      internalID: -581883669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_194
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a62c5b9ccb5b74b93c8ec382233b08
+      internalID: -739798610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_195
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 76
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5cf7b9d6410a447b080a7bb5caf170
+      internalID: 25234206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_196
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e017cb354db1c41874c719bd1edc48
+      internalID: -310280725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_197
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 75
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a80e7b003a3386489494d0bd22a7e4e
+      internalID: -2145751354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_198
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 75
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c704567be55a4aa8554ecb07ae22b
+      internalID: 611645002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_199
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 56
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1362bd6df2bc05e4697e4298d88ed879
+      internalID: -286634623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_200
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 57
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cee02f1f8d1f1142bb61a497e11e7d2
+      internalID: -220034603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_201
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 58
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30593098f309fb46bd94366eeaa9382
+      internalID: 874009822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_202
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 58
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a89b8c143085468f344c56a687c30
+      internalID: -149736462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_203
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 58
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd0c3431bbbf544bc13c0454f62e5c
+      internalID: -1597267655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_204
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 69
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a448a302be83347a9b714c48b67a48
+      internalID: -1208272220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_215
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 58
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae91f78928bab6e479653fdab4702f94
+      internalID: 1838627264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_216
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 57
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b39421bfeefcc24da0945f4b82cc209
+      internalID: -1681220504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_217
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222b9d7368409624ca681e6c07d85a1a
+      internalID: 1384259664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_218
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 58
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb6e1f3b91c391429abd671c306a77a
+      internalID: -1786373150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_219
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 57
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b67f600f38c1314294a9ceaf8036f19
+      internalID: 820697255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_220
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 57
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0055835d9b7aef4ca5f5d91ef1d4edc
+      internalID: 1434301462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_221
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c220eea5c1f75844b7e53296d42ee46
+      internalID: 1144234467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_222
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 57
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e86b97a567e8d439f70474d55ca620
+      internalID: 228787056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_223
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 57
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18a36a64921ea340ae67e617a05d5e9
+      internalID: 87633560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_225
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 38
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad713dd7836e2b246a3fec11130793f9
+      internalID: 1123840901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_226
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 39
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9279f619808658d4998c696aa691277e
+      internalID: 1779877130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_227
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563d61ba7f3001d4eb415000bc792e1b
+      internalID: 1990033323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_228
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 40
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4372ddf779dbf53489bcd32acbeec123
+      internalID: -1846000257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_229
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 40
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99699ee5e6047f4aa8f7f653373a82c
+      internalID: 1900574411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_230
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 39
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f99bad6386325c43a54d56c8a5ea0a5
+      internalID: -1611322356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_231
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec086dd0a7a545243ab6715057a797de
+      internalID: 497722310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_232
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445b6e48e4b82074d8104aca590728a6
+      internalID: 501645158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_233
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2627a6e734c60d74cb786ba073b47f27
+      internalID: 1218117938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_234
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095da5efe9285e4692fbe6c34a5ef42
+      internalID: -466830128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_235
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 37
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bd9b3f0044f3a44a9505e9bfb5e493
+      internalID: -1650168146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_236
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 37
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01f6f6b93fb61d459128f65d81b9b50
+      internalID: 1199511791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_237
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a4728080b6700409832177bec1d78f
+      internalID: -1717556119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_239
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aeb77397d177c4e8cf690ff76bb068
+      internalID: -1843031391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_240
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 39
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6fa3b646c4bb34e940423050452c22
+      internalID: 1026998909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_241
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 39
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec70fbc4fe5f444f8f3156ec9b64749
+      internalID: 972588044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_242
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 29
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091de7f8994ada9458216f846c924e96
+      internalID: -244626762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_243
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 28
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf76a9847eb46e42bbb14b7f7b78ba8
+      internalID: 1519010790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_244
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 28
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e5c8848374cab4f9ae9520a278eaa8
+      internalID: 1151986468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_245
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 28
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0606ab67388759a418e030b3f8b96d4d
+      internalID: 2132218817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_246
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 28
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79239aed757c49a418ecf5781518e75c
+      internalID: 1009386424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_247
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 28
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79028b08cf816624c8a78fea56b97993
+      internalID: -651307938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_248
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71add2f29238273468965dac3d8a0351
+      internalID: 1362848191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_249
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022872c8b73f2114e83a9715625c0c7f
+      internalID: -904476805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_250
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8de6dc38da1cea459a5e17f6e7e560f
+      internalID: 1488674158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_251
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687005477a9914a4ba7277e8e914a583
+      internalID: 147425528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_252
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292f2cbca895ea746b0268bf67522a30
+      internalID: 570516136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_253
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 19
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5219adfcec25dd44d8420ce7634d47fb
+      internalID: -1401898976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_254
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3844d5caaa8ed441a517252cfd061cc
+      internalID: 1789300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_255
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc64a752309564c4d86548f91841a485
+      internalID: -1496967640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_256
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3477d683a6bd9a346b2112fe3c7437c3
+      internalID: -1230745904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_257
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db21168fd031a946a3996e5b0935924
+      internalID: 1170536775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_258
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f284f4d6d5ed45b8080a2ca17d7cf
+      internalID: 479802080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_259
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc76f20c473ffae478baee1b847a7042
+      internalID: 1069484368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_260
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c053549bec005cb458d3feae4ccaee68
+      internalID: -1525841241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_261
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d462200e97fc34da9f00d79c57e7c9
+      internalID: -1564827939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_262
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bd89453ef161046b90af475dcb53d6
+      internalID: 181553525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_263
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af008a7e1676046a550cc01e3d090f
+      internalID: 2054275669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_264
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071fe82fba00b04ead5bf1e7d366a3b
+      internalID: 282108410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_265
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47821198eb4be434fbe2d64d74bf01d2
+      internalID: -32743794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_266
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b15a4689dd0d56478f7c6e0c4169ae0
+      internalID: -1766149298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_267
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d8b1625565cae43a508f58c3f2c1f3
+      internalID: 1893935095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_268
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0081245d2ad803945b26f6279d2a84ae
+      internalID: 459272474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_269
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 4
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005460cd94b61824b94ce799416b9099
+      internalID: 1530334914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_270
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29338dfe230a9724ebdd08c642bd1188
+      internalID: -553871318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_271
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bd871691e378047844cb5f27c65d09
+      internalID: -918836953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_272
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b365065cd1bd4c45b340fe8dc79ae93
+      internalID: -1160048576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS 1_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 100
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed826bfb5bf52f144ab5c5ccdab1cdce
+      internalID: 389839354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSS Bullet
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 85
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe47afe52cf158f45a43166b5f6411c5
+      internalID: -1331695651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GalagaSS 1_0: -726796259
+      GalagaSS 1_1: -1744423801
+      GalagaSS 1_100: 1405676162
+      GalagaSS 1_101: 174874036
+      GalagaSS 1_102: 648938170
+      GalagaSS 1_103: -2021496593
+      GalagaSS 1_104: 1884459582
+      GalagaSS 1_105: -619664771
+      GalagaSS 1_106: 1433222967
+      GalagaSS 1_107: -1029823707
+      GalagaSS 1_108: -1219140963
+      GalagaSS 1_109: 1903603043
+      GalagaSS 1_11: -425437896
+      GalagaSS 1_110: -1666543516
+      GalagaSS 1_111: 1479537994
+      GalagaSS 1_112: -1766198362
+      GalagaSS 1_113: 1846276356
+      GalagaSS 1_114: -1421573784
+      GalagaSS 1_115: 229038559
+      GalagaSS 1_116: 1871521492
+      GalagaSS 1_117: 880725575
+      GalagaSS 1_118: 2011635695
+      GalagaSS 1_119: -401797352
+      GalagaSS 1_12: -1632115970
+      GalagaSS 1_120: 2050235451
+      GalagaSS 1_121: -2134201848
+      GalagaSS 1_122: -2060028354
+      GalagaSS 1_123: -1200595569
+      GalagaSS 1_124: -741440101
+      GalagaSS 1_125: -859880904
+      GalagaSS 1_126: 818595757
+      GalagaSS 1_127: 160935797
+      GalagaSS 1_128: -1918065931
+      GalagaSS 1_129: -828217029
+      GalagaSS 1_13: -97824780
+      GalagaSS 1_130: -1976053805
+      GalagaSS 1_131: -497138511
+      GalagaSS 1_132: 1097128701
+      GalagaSS 1_133: 574199127
+      GalagaSS 1_134: 1714946874
+      GalagaSS 1_135: 607881127
+      GalagaSS 1_136: 475352076
+      GalagaSS 1_137: 1963906891
+      GalagaSS 1_138: -1053021579
+      GalagaSS 1_139: -1630524054
+      GalagaSS 1_14: 2118553240
+      GalagaSS 1_140: 476720776
+      GalagaSS 1_141: -322943089
+      GalagaSS 1_142: -1905064200
+      GalagaSS 1_143: -705459110
+      GalagaSS 1_144: 593062005
+      GalagaSS 1_145: 1631868173
+      GalagaSS 1_146: -340252643
+      GalagaSS 1_147: -1336278115
+      GalagaSS 1_148: 26498470
+      GalagaSS 1_149: 1563417996
+      GalagaSS 1_15: -594218205
+      GalagaSS 1_150: 582994698
+      GalagaSS 1_151: 931723122
+      GalagaSS 1_152: -703904482
+      GalagaSS 1_153: -676475191
+      GalagaSS 1_154: 483506048
+      GalagaSS 1_155: 1278159942
+      GalagaSS 1_156: -1071159764
+      GalagaSS 1_157: 713928329
+      GalagaSS 1_158: -1449947678
+      GalagaSS 1_159: -876922772
+      GalagaSS 1_16: 242335289
+      GalagaSS 1_160: 61642337
+      GalagaSS 1_161: -1364654912
+      GalagaSS 1_162: -1742814525
+      GalagaSS 1_163: -1932576866
+      GalagaSS 1_164: 1794297890
+      GalagaSS 1_165: -927268214
+      GalagaSS 1_166: -404345084
+      GalagaSS 1_167: 2000358863
+      GalagaSS 1_168: 22271866
+      GalagaSS 1_169: 1176432480
+      GalagaSS 1_17: 483750065
+      GalagaSS 1_170: 1605904296
+      GalagaSS 1_171: -1733160666
+      GalagaSS 1_172: 834823952
+      GalagaSS 1_173: -1779643637
+      GalagaSS 1_174: 1550110252
+      GalagaSS 1_175: 2089553091
+      GalagaSS 1_176: -1168631279
+      GalagaSS 1_177: -533800527
+      GalagaSS 1_178: 1286513712
+      GalagaSS 1_179: -588318913
+      GalagaSS 1_18: 1184053891
+      GalagaSS 1_180: -747163987
+      GalagaSS 1_181: 1905033163
+      GalagaSS 1_182: -103823342
+      GalagaSS 1_183: -1552753526
+      GalagaSS 1_184: -1428577235
+      GalagaSS 1_185: -486557622
+      GalagaSS 1_186: -1010514308
+      GalagaSS 1_187: 502489174
+      GalagaSS 1_188: -1785334661
+      GalagaSS 1_189: -1161692353
+      GalagaSS 1_19: -1922660374
+      GalagaSS 1_190: -1601814827
+      GalagaSS 1_191: 736969825
+      GalagaSS 1_192: 1963864682
+      GalagaSS 1_193: -581883669
+      GalagaSS 1_194: -739798610
+      GalagaSS 1_195: 25234206
+      GalagaSS 1_196: -310280725
+      GalagaSS 1_197: -2145751354
+      GalagaSS 1_198: 611645002
+      GalagaSS 1_199: -286634623
+      GalagaSS 1_2: 1273288822
+      GalagaSS 1_20: 477240023
+      GalagaSS 1_200: -220034603
+      GalagaSS 1_201: 874009822
+      GalagaSS 1_202: -149736462
+      GalagaSS 1_203: -1597267655
+      GalagaSS 1_204: -1208272220
+      GalagaSS 1_205: 1800845473
+      GalagaSS 1_206: -225438544
+      GalagaSS 1_207: 1651365157
+      GalagaSS 1_208: -1490380048
+      GalagaSS 1_209: -1662829861
+      GalagaSS 1_21: 1044615863
+      GalagaSS 1_210: 1227200682
+      GalagaSS 1_211: -358466118
+      GalagaSS 1_212: -278483963
+      GalagaSS 1_213: -1800450235
+      GalagaSS 1_214: -1914662657
+      GalagaSS 1_215: 1838627264
+      GalagaSS 1_216: -1681220504
+      GalagaSS 1_217: 1384259664
+      GalagaSS 1_218: -1786373150
+      GalagaSS 1_219: 820697255
+      GalagaSS 1_22: 1216448847
+      GalagaSS 1_220: 1434301462
+      GalagaSS 1_221: 1144234467
+      GalagaSS 1_222: 228787056
+      GalagaSS 1_223: 87633560
+      GalagaSS 1_224: -307112075
+      GalagaSS 1_225: 1123840901
+      GalagaSS 1_226: 1779877130
+      GalagaSS 1_227: 1990033323
+      GalagaSS 1_228: -1846000257
+      GalagaSS 1_229: 1900574411
+      GalagaSS 1_23: -1477144567
+      GalagaSS 1_230: -1611322356
+      GalagaSS 1_231: 497722310
+      GalagaSS 1_232: 501645158
+      GalagaSS 1_233: 1218117938
+      GalagaSS 1_234: -466830128
+      GalagaSS 1_235: -1650168146
+      GalagaSS 1_236: 1199511791
+      GalagaSS 1_237: -1717556119
+      GalagaSS 1_238: 115801988
+      GalagaSS 1_239: -1843031391
+      GalagaSS 1_24: 2034129624
+      GalagaSS 1_240: 1026998909
+      GalagaSS 1_241: 972588044
+      GalagaSS 1_242: -244626762
+      GalagaSS 1_243: 1519010790
+      GalagaSS 1_244: 1151986468
+      GalagaSS 1_245: 2132218817
+      GalagaSS 1_246: 1009386424
+      GalagaSS 1_247: -651307938
+      GalagaSS 1_248: 1362848191
+      GalagaSS 1_249: -904476805
+      GalagaSS 1_25: 152860714
+      GalagaSS 1_250: 1488674158
+      GalagaSS 1_251: 147425528
+      GalagaSS 1_252: 570516136
+      GalagaSS 1_253: -1401898976
+      GalagaSS 1_254: 1789300162
+      GalagaSS 1_255: -1496967640
+      GalagaSS 1_256: -1230745904
+      GalagaSS 1_257: 1170536775
+      GalagaSS 1_258: 479802080
+      GalagaSS 1_259: 1069484368
+      GalagaSS 1_26: 1529002689
+      GalagaSS 1_260: -1525841241
+      GalagaSS 1_261: -1564827939
+      GalagaSS 1_262: 181553525
+      GalagaSS 1_263: 2054275669
+      GalagaSS 1_264: 282108410
+      GalagaSS 1_265: -32743794
+      GalagaSS 1_266: -1766149298
+      GalagaSS 1_267: 1893935095
+      GalagaSS 1_268: 459272474
+      GalagaSS 1_269: 1530334914
+      GalagaSS 1_27: -489739597
+      GalagaSS 1_270: -553871318
+      GalagaSS 1_271: -918836953
+      GalagaSS 1_272: -1160048576
+      GalagaSS 1_28: 1510503291
+      GalagaSS 1_29: 252927882
+      GalagaSS 1_3: -677294561
+      GalagaSS 1_30: 566361945
+      GalagaSS 1_31: -798721435
+      GalagaSS 1_32: -1150538868
+      GalagaSS 1_33: -1344575918
+      GalagaSS 1_34: 2103388363
+      GalagaSS 1_35: 396554574
+      GalagaSS 1_36: -1128967139
+      GalagaSS 1_37: -1880236375
+      GalagaSS 1_38: 890330819
+      GalagaSS 1_39: 1091450920
+      GalagaSS 1_4: 1850349387
+      GalagaSS 1_40: -2145444880
+      GalagaSS 1_41: -861005524
+      GalagaSS 1_42: -1304533159
+      GalagaSS 1_43: 1644292326
+      GalagaSS 1_44: 569456376
+      GalagaSS 1_45: -1072841418
+      GalagaSS 1_46: -643917266
+      GalagaSS 1_47: 1646258675
+      GalagaSS 1_48: -1551373596
+      GalagaSS 1_49: -2014442039
+      GalagaSS 1_5: -1618501313
+      GalagaSS 1_50: 135278030
+      GalagaSS 1_51: -708364105
+      GalagaSS 1_52: 656682616
+      GalagaSS 1_53: 1231774069
+      GalagaSS 1_54: -1348730035
+      GalagaSS 1_55: 747492264
+      GalagaSS 1_56: 256610598
+      GalagaSS 1_57: 1399077846
+      GalagaSS 1_58: 696258700
+      GalagaSS 1_59: -1090514008
+      GalagaSS 1_6: 1599746729
+      GalagaSS 1_60: -1592265435
+      GalagaSS 1_61: -470073771
+      GalagaSS 1_62: 2138038057
+      GalagaSS 1_63: -446417989
+      GalagaSS 1_64: -2075283121
+      GalagaSS 1_65: -802222043
+      GalagaSS 1_66: 1243586348
+      GalagaSS 1_67: -72205004
+      GalagaSS 1_68: 1193589506
+      GalagaSS 1_69: 521407692
+      GalagaSS 1_7: 1621062308
+      GalagaSS 1_70: 1365795623
+      GalagaSS 1_71: -1637067829
+      GalagaSS 1_72: -661102312
+      GalagaSS 1_73: 1936442125
+      GalagaSS 1_74: 1468786802
+      GalagaSS 1_75: 1850670327
+      GalagaSS 1_76: -1775062230
+      GalagaSS 1_77: 930514825
+      GalagaSS 1_78: 2031428780
+      GalagaSS 1_79: 493872384
+      GalagaSS 1_8: -1377407070
+      GalagaSS 1_80: -1239634383
+      GalagaSS 1_81: 1718473
+      GalagaSS 1_82: -491580118
+      GalagaSS 1_83: 1341234032
+      GalagaSS 1_84: 1239416606
+      GalagaSS 1_85: 718601292
+      GalagaSS 1_86: 1934494179
+      GalagaSS 1_87: 1222813360
+      GalagaSS 1_88: -281728383
+      GalagaSS 1_89: 1228972972
+      GalagaSS 1_9: 389839354
+      GalagaSS 1_90: -1639368410
+      GalagaSS 1_91: -224445664
+      GalagaSS 1_92: 748592579
+      GalagaSS 1_93: -789081302
+      GalagaSS 1_94: -717532083
+      GalagaSS 1_95: -2007228607
+      GalagaSS 1_96: 1119006111
+      GalagaSS 1_97: 1502280971
+      GalagaSS 1_98: 1949941744
+      GalagaSS 1_99: 442369815
+      GalagaSS Bullet: -1331695651
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

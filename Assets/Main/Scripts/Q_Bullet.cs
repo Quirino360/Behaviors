@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Q_Bullet : MonoBehaviour
 {
-    //[SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject bulletPrefab;
 
     private float speed = 1.0f;
     public float m_speed
@@ -27,7 +27,7 @@ public class Q_Bullet : MonoBehaviour
         set { damage = value; }
     }
 
-    [SerializeField] private float lifeTime = 5.0f;
+    [SerializeField] private float lifeTime = 8.0f;
 
     void Start()
     {
@@ -37,26 +37,34 @@ public class Q_Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        direction.z = 0.0f;
         transform.position += direction * speed * Time.deltaTime;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "AI")
+        if (collision.gameObject.tag == "Body")
+        {
+            Debug.Log("Bullet hit body");
+        }
+
+        if (collision.gameObject.tag == "AAAA")
         {
             Q_AI actor = collision.gameObject.GetComponent<Q_AI>();
 
-            actor.m_lives -= damage;
-            if(actor.m_lives <= 0)
+            actor.m_lives -= 1;
+            if (actor.m_lives <= 0)
             {
                 Destroy(collision.gameObject);
             }
+
+
         }
-        else if (collision.gameObject.tag == "Player")
+        else if (collision.gameObject.tag == "BoAAAdy")
         {
             Q_Character actor = collision.gameObject.GetComponent<Q_Character>();
 
-            actor.m_lives -= damage;
+            actor.m_lives -= 1;
             if (actor.m_lives <= 0)
             {
                 // end the game
@@ -64,8 +72,6 @@ public class Q_Bullet : MonoBehaviour
             }
 
         }
+    }*/
 
-        Destroy(gameObject);
-
-    }
 }

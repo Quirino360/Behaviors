@@ -15,7 +15,6 @@ namespace Qurino
         private GameObject childGO;
         [SerializeField] private Camera cam;
 
-        protected GameObject Muzzle;
 
         private PlayerController input = null;
         public PlayerController m_input
@@ -94,7 +93,6 @@ namespace Qurino
 
             }
 
-            Muzzle = ShipSprite.gameObject.transform.GetChild(0).gameObject;
         }
 
         // Update is called once per frame
