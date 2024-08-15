@@ -35,7 +35,7 @@ public class Q_Bullet : MonoBehaviour
         set { damage = value; }
     }
 
-    [SerializeField] private float lifeTime = 8.0f;
+    [SerializeField] private float lifeTime = 4.0f;
 
     void Start()
     {

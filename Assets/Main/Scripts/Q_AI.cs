@@ -60,6 +60,7 @@ namespace Qurino
             m_speed = 2.5f;
             m_steeringBehaviour.m_path = m_path;
             m_state = Q_AISM.IdleState;
+            m_shootCooldown = UnityEngine.Random.Range(3.0f, 6.0f);
         }
 
 

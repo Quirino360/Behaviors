@@ -33,6 +33,7 @@ namespace Quirino
             ai.m_beahviours = new Q_Behaviour[2];
             ai.m_beahviours[0] = b;
             ai.m_beahviours[1] = a;
+
         }
 
         public override Q_AIState OnUpdate(Q_AI ai)
