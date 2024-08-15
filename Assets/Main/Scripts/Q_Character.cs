@@ -10,7 +10,7 @@ namespace Qurino
     public class Q_Character : MonoBehaviour
     {
         [Serializable]
-        protected struct Q_Behaviour
+        public struct Q_Behaviour
         {
             public STEERING_BEHAVIOUR m_currentBehaviour;
             public GameObject m_target; //pos and dir, only if it has dir
@@ -18,6 +18,7 @@ namespace Qurino
             public float targetProyection;
         }
 
+        protected GameObject childGO;
         [SerializeField] private Q_Bullet m_bullet;
         protected GameObject m_muzzle;
         protected GameObject m_shipSprite;
@@ -51,6 +52,17 @@ namespace Qurino
             set { boostSpeed = value; }
         }
 
+        private float shootCooldown = 2;
+        public float m_shootCooldown
+        {
+            get { return shootCooldown; }
+            set { shootCooldown = value; }
+        }
+
+        protected float m_shootCountDown = 0;
+        protected bool m_canShoot = true;
+
+
         private uint lives = 1;
         public uint m_lives
         {
@@ -58,7 +70,19 @@ namespace Qurino
             set { lives = value; }
         }
 
-        [SerializeField] protected Q_Behaviour[] m_beahviours;
+
+
+
+        [SerializeField] protected Q_Behaviour[] beahviours;
+        public Q_Behaviour[] m_beahviours
+        {
+            get { return beahviours; }
+            set { beahviours = value; }
+        }
+
+
+
+
         [SerializeField] protected float m_bigRadio;
         [SerializeField] protected float m_smallRadio;
 
@@ -73,7 +97,11 @@ namespace Qurino
             m_shipSprite = gameObject.transform.GetChild(0).gameObject;
             m_muzzle = m_shipSprite.gameObject.transform.GetChild(0).gameObject;
 
+            childGO = transform.GetChild(0).gameObject;
+            if (!childGO)
+            {
 
+            }
         }
 
 
@@ -84,13 +112,28 @@ namespace Qurino
 
             ring.DrawLine(ring.direction, transform.position, transform.position + m_direction);
             ring.DrawLine(ring.speed, transform.position, transform.position + m_force);
+
+            m_shootCountDown += Time.deltaTime;
+            if (m_shootCountDown >= m_shootCooldown )
+            {
+                m_canShoot = true;
+            }
+
         }
 
-        protected virtual void Shoot(Vector3 shootDir)
+        public virtual void Shoot(Vector3 shootDir, bool isEnemy)
         {
-            var bullet = Instantiate(m_bullet.gameObject, m_muzzle.transform.position, m_muzzle.transform.rotation);
-            var bullSCpt = bullet.gameObject.GetComponent<Q_Bullet>();
-            bullSCpt.m_direction = shootDir;
+            if (m_canShoot)
+            {
+                var bullet = Instantiate(m_bullet.gameObject, m_muzzle.transform.position, m_muzzle.transform.rotation);
+                var bullSCpt = bullet.gameObject.GetComponent<Q_Bullet>();
+                bullSCpt.m_direction = shootDir;
+                bullSCpt.m_isEnemy = isEnemy;
+
+                m_shootCountDown = 0;
+                m_canShoot = false;
+            }
+
         }
     }
 } // namespace

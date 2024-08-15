@@ -35,7 +35,7 @@ namespace Qurino
         private float ArriveRadio = 0.0f;
 
         // State Machine
-        private Q_AIState state = Q_AISM.IdleState;
+        private Q_AIState state = null;
         public Q_AIState m_state
         {
             get { return state; }
@@ -49,7 +49,7 @@ namespace Qurino
                     // }
                     state?.OnExit();
                     state = value;
-                    state.OnEnter();
+                    state.OnEnter(this);
                 }
             }
         }/**/
@@ -59,7 +59,7 @@ namespace Qurino
             base.Start();
             m_speed = 2.5f;
             m_steeringBehaviour.m_path = m_path;
-
+            m_state = Q_AISM.IdleState;
         }
 
 
@@ -116,8 +116,18 @@ namespace Qurino
                 transform.position += m_direction * ArriveSpeed * Time.deltaTime;
             }
 
+
+            float rotz = Mathf.Atan2(m_direction.y, m_direction.x) * Mathf.Rad2Deg;
+
+            childGO.transform.rotation = Quaternion.Euler(0, 0, rotz - 90);
+
+
         }
 
+        public void OnDestroy()
+        {
+            Destroy(gameObject);
+        }
 
         // realForce = (force * (1-mass) + (oldForce * mass))transorm
         // old force = realForce 

@@ -12,7 +12,6 @@ namespace Qurino
     public class Q_Player : Q_Character
     {
 
-        private GameObject childGO;
         [SerializeField] private Camera cam;
 
 
@@ -87,11 +86,7 @@ namespace Qurino
             m_lives = 5;
 
 
-            childGO = transform.GetChild(0).gameObject;
-            if (!childGO)
-            {
 
-            }
 
         }
 
@@ -139,7 +134,8 @@ namespace Qurino
 
         private void OnShoot(InputAction.CallbackContext value)
         {
-            Shoot(m_mouseDir);
+            Shoot(m_mouseDir.normalized, false);
+            //Shoot(m_direction);
         }
 
 

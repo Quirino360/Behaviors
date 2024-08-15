@@ -14,7 +14,7 @@ namespace Quirino
 
         }
 
-        public override void OnEnter()
+        public override void OnEnter(Q_AI ai)
         {
 
         }

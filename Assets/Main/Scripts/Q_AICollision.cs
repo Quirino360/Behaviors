@@ -24,16 +24,19 @@ public class Q_AICollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            Debug.Log("Bullet Hit AI");
-
             var bullet = collision.gameObject.GetComponentInParent<Q_Bullet>();
-
-            character.m_lives -= bullet.m_damage;
-            if (character.m_lives <= 0)
+            if (bullet != null && bullet.m_isEnemy == false)
             {
-                Destroy(character.gameObject);
-                Destroy(bullet.gameObject);
+                Debug.Log("Bullet Hit AI");
+
+                character.m_lives -= bullet.m_damage;
+                if (character.m_lives <= 0)
+                {
+                    Destroy(character.gameObject);
+                    Destroy(bullet.gameObject);
+                }
             }
+
         }
 
     }

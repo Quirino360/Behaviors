@@ -49,11 +49,11 @@ namespace Quirino
         }
 
 
-        Q_CharacterManager charManager;
+        
 
         public Q_SteeringBehaviours()
         {
-            charManager = new Q_CharacterManager();
+            
         }
 
         
@@ -250,7 +250,7 @@ namespace Quirino
 
         public Vector3 Separation(Vector3 pos, float inpetu, float smallRadio)
         {
-            Q_AI[] allVoids = charManager.getAllAI();
+            Q_AI[] allVoids = Q_CharacterManager.instance.getAllAI();
             Vector3 fleeDir = Vector3.zero;
 
             if (allVoids.Length <= 0)
@@ -272,7 +272,7 @@ namespace Quirino
 
         public Vector3 Cohesion(Vector3 pos, float inpetu, float bigRadio)
         {
-            Q_AI[] allVoids = charManager.getAllAI();
+            Q_AI[] allVoids = Q_CharacterManager.instance.getAllAI();
             Vector3 positionsSum = Vector3.zero;
 
             if (allVoids.Length <= 0)
@@ -298,7 +298,7 @@ namespace Quirino
 
         public Vector3 Direction(Vector3 pos, float inpetu, float bigRadio)
         {
-            Q_AI[] allVoids = charManager.getAllAI();
+            Q_AI[] allVoids = Q_CharacterManager.instance.getAllAI();
             Vector3 directions = Vector3.zero;
 
             if (allVoids.Length <= 0)

@@ -8,7 +8,15 @@ public class Q_Bullet : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
 
-    private float speed = 1.0f;
+    private bool isEnemy = false;
+    public bool m_isEnemy
+    {
+        get { return isEnemy; }
+        set { isEnemy = value; }
+    }
+
+
+    private float speed = 30.0f;
     public float m_speed
     {
         set { speed = value; }

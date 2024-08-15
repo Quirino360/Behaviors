@@ -23,17 +23,22 @@ public class Q_PlayerCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            Debug.Log("Bullet Hit Player");
-
             var bullet = collision.GetComponentInParent<Q_Bullet>();
-
-            character.m_lives -= bullet.m_damage;
-            if (character.m_lives <= 0)
+            if (bullet != null && bullet.m_isEnemy == true)
             {
-                // end the game
-                Destroy(character.gameObject);
-                Destroy(bullet.gameObject);
+                Debug.Log("Bullet Hit Player");
+
+
+                character.m_lives -= bullet.m_damage;
+                if (character.m_lives <= 0)
+                {
+                    // end the game
+                    Destroy(character.gameObject);
+                    Destroy(bullet.gameObject);
+                }
+
             }
+
         }
     }
 

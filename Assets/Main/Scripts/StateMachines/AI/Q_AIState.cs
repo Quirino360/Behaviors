@@ -15,7 +15,7 @@ namespace Quirino
         {
         }
 
-        abstract public void OnEnter();
+        abstract public void OnEnter(Q_AI ai);
         abstract public Q_AIState OnUpdate(Q_AI ai);
         abstract public Q_AIState OnFixedUpdate(Q_AI ai);
         abstract public void OnExit();
